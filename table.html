@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+       td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+           
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="vedio.html">Vedio</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="vedio.html">Vedio</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+    <h1>HTML Table</h1>
+    <table>
+     <caption>Employee Salary Table</caption>
+     <thead>
+         <tr>
+             <th>ID</th>
+             <th>Name</th>
+             <th>Company</th>
+             <th>Salary</th>
+         </tr>
+ </thead>
+ 
+ <tbody>
+ <tr>
+     <td>1</td>
+     <td>Bill Gates</td>
+     <td>Microsoft</td>
+     <td>$1000</td>
+ </tr>
+ <tr>
+     <td>1</td>
+     <td>Bill Gates</td>
+     <td>Microsoft</td>
+     <td>$1000</td>
+ </tr>
+ <tr>
+     <td>1</td>
+     <td>Bill Gates</td>
+     <td>Microsoft</td>
+     <td>$1000</td>
+ </tr>
+ <tr>
+     <td>1</td>
+     <td>Bill Gates</td>
+     <td>Microsoft</td>
+     <td>$1000</td>
+ </tr>
+ 
+ </tbody>
+ 
+ <tfoot>
+     <tr>
+         <td colspan="4">Total Employees: 4</td>
+     </tr>
+ </tfoot>
+ 
+    </table>
+     <ul>
+         <li>Table: table</li>
+         <li>Table Head: thead</li>
+         <li>Table Body: tbody</li>
+         <li>Table Foot: tfoot</li>
+         <li>Table Row: tr</li>
+         <li>Table Data or cells: td</li>
+         <li>Table Heading: th</li>
+     </ul>
+     <button>click me</button>
+     <button disabled>click me</button>
+     <input type="number" max="10" min="5" name="" id="">
+   </main>
+
+</body>
+</html>
